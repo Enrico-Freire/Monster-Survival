@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Survival</title>
+    <link rel="stylesheet" href="../css/jogo.css">
+</head>
+<body>
+    <main>
+        <div id="divDetalhes">
+            <div class="divAtributos"><h1 id="nomeJogador"></h1></div>
+            <div class="divAtributos"><h2>Nvl: </h2><p id="nvlJogador"></p></div>
+            <br>
+            <div class="divAtributos"><h2>Vida:</h2><p id="vida"></p><h2>/</h2><p id="vidaMaxima"></p></div>
+            <br>
+            <br>
+            <div class="divAtributos"><h2>Espada</h2></div>
+            <div class="divAtributos"><h3>Dano:</h3><p id="danoEspada"></p></div>
+            <div class="divAtributos"><h4>Nvl Espada: </h4><p id="nvlEspada"></p></div>
+            <div class="divAtributos"><h2>Arco</h2></div>
+            <div class="divAtributos"><h3>Dano: </h3><p id="danoArco"></p></div>
+            <div class="divAtributos"><h4>Nvl Arco: </h4><p id="nvlArco"></p></div>
+            <div class="divAtributos"><h2>Escudo</h2></div>
+            <div class="divAtributos"><h3>Defesa:</h3><p id="defesaEscudo"></p></div>
+            <div class="divAtributos"><h4>Nvl Escudo: </h4><p id="nvlEscudo"></p></div>
+        </div>
+        <div id="divCanvas">
+            <canvas id="canvas"></canvas>
+        </div>
+        <div id="divBotoes">
+            <button onclick="Voltar()" id="botaoVoltar">VOLTAR</button>
+            <div id="divMonsters"><h2 id="nomeMonsters"></h2><p id="vidaMonsters"></p></div>
+            <button id="botaoEspada" onclick="Espada()">ESPADA</button>
+            <button id="botaoArco" onclick="Arco()">ARCO</button>
+            <button id="botaoEscudo" onclick="Escudo()">ESCUDO</button>
+        </div>
+    </main>
+    <script src="../js/script.js"></script>
+    <script src="../js/personagem.js"></script>
+    <script src="../js/monsters.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  margin-right: 0%;
+  margin-left: 0%;
+  margin-top: 0;
+  margin: 0;
+  z-index: -1;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.divBotao {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.botaoStart {
+  margin-top: 100px;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(175, 74, 74);
+  cursor: pointer;
+}
+
+form {
+  margin: 0px;
+  width: 390px;
+  background-color: #545454;
+  padding: 30px;
+
+  label {
+    color: white;
+    font-size: 25px;
+    font-family: Tahoma;
+
+  }
+
+  p {
+    color: white;
+    font-size: 20px;
+  }
+
+  #label1 {
+    text-align: center;
+  }
+  
+  #nome{
+    width: 400px;
+    height: 30px;
+    font-size: 22px;
+  }
+}
+
+#divBotao2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+#botaoComecar {
+  margin-top: 100px;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(175, 74, 74);
+  cursor: pointer;
+}
+
+#divForm {
+  display: flex;
+  margin-left: 35.2%;
+  height: 404.6px;
+  width: 34.8%;
+  margin-top: 85px;
+  padding: 0%;
+}
+
+#divP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3%;
+}

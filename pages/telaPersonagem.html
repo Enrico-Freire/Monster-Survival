@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Survival</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <img src="../assets/img/cenario2.png" alt="">
+    <br>
+    <div id="divForm">
+        <form>
+            <label for="nome">DIGITE SEU NOME:
+                <br>
+                <br>
+                <input type="text" name="nome" id="nome">
+            </label>
+            <br>
+            <br>
+            <br>
+            <label for="tipoPersonagem" id="label1">SELECIONE O SEU TIPO:
+                <br>
+                <br>
+                <div id="divP">
+                    <p>SOLDADO<input type="radio" name="tipoPersonagem" class="radios" value="soldado"></p>
+                    <p>TANQUE<input type="radio" name="tipoPersonagem" class="radios" value="tanque"></p>
+                    <p>ATIRADOR<input type="radio" name="tipoPersonagem" class="radios" value="atirador"></p>
+                </div>
+            </label>
+            <div id="divBotao2"><button id="botaoComecar" onclick="Comecar()"><a href="jogo.html">COMEÇAR</a></button></div>
+        </form>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
